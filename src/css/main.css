@@ -1,5 +1,24 @@
 @import 'normalize';
 
+$serif: Georgia, Times, Times New Roman, serif;
+$sans-serif: Gill Sans, Gill Sans MT, Calibri, sans-serif; 
+
+$light: #FEFFFF;
+$dark: #333;
+
+:root {
+	font-size: 10px;
+}
+
 body {
-	background: #FEFFFF;
+	background: $light;
+}
+
+h1,
+h2 {
+	font-family: $serif;
+}
+
+h1 {
+	font-size: 3.2rem;
 }
