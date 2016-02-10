@@ -15,6 +15,9 @@ url: http://turretcss.com
 encoding: UTF-8
 exclude: []
 
+# URLs
+permalink: pretty
+
 # Build settings
 markdown: kramdown
 
