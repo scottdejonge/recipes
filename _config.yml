@@ -7,7 +7,7 @@ description: >
   Google search results) and in your feed.xml site description.
 
 # Server
-baseurl: ""
+baseurl: "/recipes"
 destination: _site
 host: 0.0.0.0
 port: 4001
