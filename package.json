@@ -1,0 +1,30 @@
+{
+  "name": "recipes",
+  "version": "0.0.1",
+  "description": "",
+  "license": "MIT",
+  "author": "Scott de Jonge <dejonge.scott@gmail.com> (http://scottdejonge.com/)",
+  "homepage": "https://github.com/scottdejonge/recipes#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottdejonge/recipes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/scottdejonge/recipes/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "postcss": "^5.0.14",
+    "postcss-import": "^8.0.2",
+    "postcss-loader": "^0.8.0",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.2"
+  },
+  "scripts": {
+    "start": "npm run watch",
+    "watch": "webpack -d --watch"
+  }
+}
