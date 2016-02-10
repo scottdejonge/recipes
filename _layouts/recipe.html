@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<article class="recipe">
+
+  <header class="recipe-header">
+    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+    <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time></p>
+  </header>
+  
+  {{ content }}
+
+</article>

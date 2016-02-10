@@ -81,6 +81,43 @@ body {
 }
 
 
+
+/*
+ * Recipe
+ */
+
+.recipe {
+	
+	ul,
+	ol {
+		margin: 5rem 0;
+
+		li {
+
+			&:first-child {
+				margin-top: 0;
+			}
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	ul li {
+		margin: 0.5em 0;
+	}
+
+	ol li {
+		margin: 1em 0;
+	}
+}
+
+.recipe-header {
+	text-align: center;
+}
+
+
 /*
  * Typography
  */
@@ -101,6 +138,20 @@ ol,
 p {
 	font-size: 1.6rem;
 	font-weight: 400;
+}
+
+hr {
+	height: 0;
+	margin: 5rem auto;
+	font-size: 1.6rem;
+	color: $dark;
+	text-align: center;
+	border: none;
+
+	&::before {
+		content: "···";
+		letter-spacing: 2em;
+	}
 }
 
 

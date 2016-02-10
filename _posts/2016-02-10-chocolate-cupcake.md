@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: recipe
 title: "Chocolate Cupcakes"
 date: 2016-02-10 16:08:22 +1000
 categories: 
@@ -15,6 +15,8 @@ categories:
 * 3oz melted Butter
 * 1 egg
 * 50g choc chips
+
+* * *
 
 1. Blend for 2 mins
 2. Sdd 1 egg and blend for 1minute
