@@ -4,7 +4,7 @@ var postcssImport = require('postcss-import');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
-  entry: './src/main.js',
+  entry: './src/js/main.js',
   output: {
     path: __dirname + '/dist',
     publicPath: '/',
