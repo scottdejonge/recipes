@@ -10,8 +10,11 @@ $gutter: 10px;
 $serif: Georgia, Times, Times New Roman, serif;
 $sans-serif: Gill Sans, Gill Sans MT, Calibri, sans-serif; 
 
-$light: #FEFFFF;
+$white: #FFF;
+$black: #000;
+$light: #FEFDF8;
 $light-grey: #ECECEF;
+$grey: #666;
 $dark-grey: #333;
 $dark: #222;
 
@@ -24,14 +27,20 @@ $dark: #222;
 	font-size: 10px;
 }
 
+html {
+	height: 100%;
+}
 
 /*
  * Body
  */
 
 body {
-	letter-spacing: 0.03rem;
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
 	color: $dark-grey;
+	letter-spacing: 0.03rem;
 	background: $light;
 }
 
@@ -43,8 +52,6 @@ body {
 .container {
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: $gutter;
-	padding-right: $gutter;
 	max-width: 900px;
 }
 
@@ -61,6 +68,16 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+}
+
+
+/*
+ * Main Content
+ */
+
+.main-content {
+	flex: 1;
+	margin: 5rem 0;
 }
 
 
@@ -84,4 +101,40 @@ ol,
 p {
 	font-size: 1.6rem;
 	font-weight: 400;
+}
+
+
+/*
+ * Footer
+ */
+
+.footer {
+	border-top: 1px solid $light-grey;
+}
+
+.footer-inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer-navigation {
+	
+	a {
+		display: inline-block;
+		padding: 1.5rem;
+		font-size: 1.4rem;
+		color: $grey;
+		text-decoration: none;
+		border-right: 1px solid $light-grey;
+
+		&:first-child {
+			border-left: 1px solid $light-grey;
+		}
+
+		&:hover,
+		&:focus {
+			color: $dark-grey;
+		}
+	}
 }

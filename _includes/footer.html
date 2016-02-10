@@ -1,22 +1,19 @@
-<footer class="site-footer">
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
 
-  <div class="wrapper">
+      <nav class="footer-navigation">
+        {% for my_page in site.pages %}
+          {% if my_page.title %}
+            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          {% endif %}
+        {% endfor %}
+      </nav>
+      <nav class="footer-navigation">
+        <a href="{{ site.repo }}">GitHub</a>
+        <a href="{{ site.repo }}/issues">Issues</a>
+      </nav>
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
     </div>
-
   </div>
-
 </footer>
