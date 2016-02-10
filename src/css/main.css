@@ -1,24 +1,87 @@
 @import 'normalize';
 
+
+/*
+ * Variables
+ */
+
+$gutter: 10px;
+
 $serif: Georgia, Times, Times New Roman, serif;
 $sans-serif: Gill Sans, Gill Sans MT, Calibri, sans-serif; 
 
 $light: #FEFFFF;
-$dark: #333;
+$light-grey: #ECECEF;
+$dark-grey: #333;
+$dark: #222;
+
+
+/*
+ * Root
+ */
 
 :root {
 	font-size: 10px;
 }
 
+
+/*
+ * Body
+ */
+
 body {
+	letter-spacing: 0.03rem;
+	color: $dark-grey;
 	background: $light;
 }
+
+
+/*
+ * Container
+ */
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: $gutter;
+	padding-right: $gutter;
+	max-width: 900px;
+}
+
+
+/*
+ * Header
+ */
+
+.header {
+	border-bottom: 1px solid $light-grey;
+}
+
+.header-inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+/*
+ * Typography
+ */
 
 h1,
 h2 {
 	font-family: $serif;
+	font-weight: 300;
+	color: $dark;
 }
 
 h1 {
 	font-size: 3.2rem;
+}
+
+ul,
+ol,
+p {
+	font-size: 1.6rem;
+	font-weight: 400;
 }
