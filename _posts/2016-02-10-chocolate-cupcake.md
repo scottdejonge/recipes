@@ -1,6 +1,7 @@
 ---
 layout: recipe
 title: "Chocolate Cupcakes"
+description: "Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur et."
 date: 2016-02-10 16:08:22 +1000
 categories: 
 ---
