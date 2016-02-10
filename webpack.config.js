@@ -1,5 +1,6 @@
 var webpack = require('webpack');
 var autoprefixer = require('autoprefixer');
+var precss = require('precss');
 var postcssImport = require('postcss-import');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
@@ -27,6 +28,7 @@ module.exports = {
         path: './src/css/*.css',
         addDependencyTo: webpack
       }),
+      precss
     ];
   },
   devtool: 'source-map',

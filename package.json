@@ -20,6 +20,7 @@
     "postcss": "^5.0.14",
     "postcss-import": "^8.0.2",
     "postcss-loader": "^0.8.0",
+    "precss": "^1.4.0",
     "style-loader": "^0.13.0",
     "webpack": "^1.12.2"
   },
