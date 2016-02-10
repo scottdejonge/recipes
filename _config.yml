@@ -1,16 +1,22 @@
 # Site settings
 title: Your awesome title
 email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: ""
-url: "http://yourdomain.com" # the base hostname & protocol for your site
 
-# Social
-twitter_username: jekyllrb
-github_username:  jekyll
+# Server
+baseurl: ""
+destination: _site
+host: 0.0.0.0
+port: 4001
+url: http://turretcss.com
+encoding: UTF-8
+exclude: []
 
 # Build settings
 markdown: kramdown
+
+# Repo
+repo: https://github.com/scottdejonge/recipes
