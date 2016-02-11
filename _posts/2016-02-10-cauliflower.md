@@ -3,7 +3,7 @@ layout: recipe
 title: "Cauliflower and cheese bake"
 description: "Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit."
 date: 2016-02-10 16:08:22 +1000
-categories: cauliflower
+categories: 
 image: '/images/cauliflower.jpg'
 
 # Cooking Info

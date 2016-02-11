@@ -16,7 +16,7 @@ encoding: UTF-8
 exclude: []
 
 # URLs
-permalink: pretty
+permalink: /:categories/:title/
 
 # Build settings
 markdown: kramdown
