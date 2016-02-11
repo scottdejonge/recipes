@@ -13,20 +13,17 @@
         <p class="tile-description">{{ post.description }}</p>
       </div>
       <div class="tile-meta">
-        <dl>
+        <ul>
           {% if post.yield %}
-            <dt>Yield</dt>
-            <dd>{{ post.yield }}</dd>
+            <li>Yield: {{ post.yield }}</li>
           {% endif %}
           {% if post.prep_time %}
-            <dt>Prep</dt>
-            <dd>{{ post.prep_time }}</dd>
+            <li>Prep: {{ post.prep_time }}</li>
           {% endif %}
           {% if post.cook_time %}
-            <dt>Cook</dt>
-            <dd>{{ post.cook_time }}</dd>
+            <li>Cook: {{ post.cook_time }}</li>
           {% endif %}
-        </dl>
+        </ul>
       </div>
     </div>
   </article>

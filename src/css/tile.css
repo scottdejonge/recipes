@@ -31,21 +31,31 @@
 }
 
 .tile-content {
-	padding: 1.5rem 1rem;
+	padding: 1.5rem;
 }
 
 .tile-meta {
 	border-top: 1px solid $light-grey;
 
-	dl {
+	ul {
 		display: flex;
 		align-items: center;
+		justify-content: space-between;
+		margin: 0;
+		padding: 0;
+		list-style: none;
 	}
 
-	dt,
-	dd {
+	li {
+		flex: 1;
+		margin: 0;
 		padding: 1rem;
-		border-right: 1px solid $light-grey;
+		font-size: 1.4rem;
+		text-align: center;
+
+		&:not(:last-child) {
+			border-right: 1px solid $light-grey;
+		}
 	}
 }
 
