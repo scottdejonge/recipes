@@ -3,8 +3,10 @@ layout: page
 title: Creaming Method
 ---
 
-Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Etiam porta sem malesuada magna mollis euismod.
+Creaming, in this sense, is the technique of blending several ingredients — for example granulated sugar together with a solid fat like shortening or butter — and working them to a smooth mass. The technique is most often used in making buttercream, cake batter or cookie dough.
 
-Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Nullam quis risus eget urna mollis ornare vel eu leo. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Curabitur blandit tempus porttitor.
+The dry ingredients are mixed or beaten with the fat until it becomes light and fluffy and increased in volume, due to the incorporation of tiny air bubbles. These air bubbles, locked into the semi-solid fat, remain in the final batter and expand as the item is baked, serving as a form of leavening agent.
 
-Aenean lacinia bibendum nulla sed consectetur. Donec id elit non mi porta gravida at eget metus. Etiam porta sem malesuada magna mollis euismod. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+Butter is the traditional fat for creaming batter for baking, but vegetable shortening is a more effective leavener for a number of reasons. The low melting point of butter means it aerates best at temperatures cooler than most kitchens (18°C/65°F), while shortening works best at higher temperatures.
+
+Because fat of butter has coarser crystalline structure, it allows larger air bubbles to form than shortening; large bubbles can rise in and escape from thin batters. Also, most shortening is made with preformed nitrogen bubbles and bubble-stabilizing emulsifiers, both of which enhance its leavening ability.
