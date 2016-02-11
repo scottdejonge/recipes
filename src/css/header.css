@@ -22,11 +22,22 @@
 		&:hover,
 		&:focus {
 			color: $dark-grey;
+			text-decoration: none;
 		}
 	}
 }
 
 .header-title {
 	margin: 0;
-	font-size: 1.6rem;
+	font-size: 1.8rem;
+
+	a {
+		color: $dark-grey;
+
+		&:hover,
+		&:focus {
+			color: $dark-grey;
+			text-decoration: none;
+		}
+	}
 }
