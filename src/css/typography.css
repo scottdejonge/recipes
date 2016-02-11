@@ -1,6 +1,21 @@
+a {
+	color: $dark;
+	text-decoration: none;
+
+	&:hover,
+	&:focus {
+		color: $dark-grey;
+		text-decoration: underline;
+	}
+
+	&:visited {
+		
+	}
+}
+
 h1,
 h2 {
-	margin: 0 0 0.65em 0;
+	margin: 1em 0;
 	font-family: $serif;
 	font-weight: 300;
 	color: $dark;
@@ -56,6 +71,11 @@ ul {
 			margin-bottom: 0;
 		}
 	}
+}
+
+strong {
+	font-weight: 300;
+	color: $dark;
 }
 
 hr {
