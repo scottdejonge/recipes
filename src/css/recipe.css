@@ -19,7 +19,7 @@
 
 		li {
 			position: relative;
-			margin: 2em 0;
+			margin: 3em 0;
 
 			&::before {
 				display: block;
