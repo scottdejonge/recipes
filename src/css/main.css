@@ -111,6 +111,14 @@ a {
 	align-items: center;
 	margin: 5rem 0;
 	border: 1px solid $light-grey;
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
 }
 
 .tile-image {
@@ -148,6 +156,14 @@ a {
 
 .tile-title {
 
+}
+
+.tile-meta {
+
+}
+
+.tile-description {
+	font-size: 1.4rem;
 }
 
 .tile-date {

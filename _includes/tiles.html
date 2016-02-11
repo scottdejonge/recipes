@@ -9,6 +9,8 @@
     <div class="tile-inner">
       <div class="tile-content">
         <h2 class="tile-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <time class="tile-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+        <p class="tile-description">{{ post.description }}</p>
         <dl class="tile-meta">
           {% if post.yield %}
             <dt>Yield</dt>
@@ -23,9 +25,6 @@
             <dd>{{ post.cook_time }}</dd>
           {% endif %}
         </dl>
-        
-        <p class="tile-description">{{ post.description }}</p>
-        <time class="tile-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
       </div>
     </div>
   </article>
