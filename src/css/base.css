@@ -20,12 +20,12 @@ body {
 }
 
 a {
-	color: $grey;
+	color: $dark;
 	text-decoration: none;
 
 	&:hover,
 	&:focus {
-		color: $dark;
+		color: $dark-grey;
 	}
 
 	&:visited {
