@@ -4,6 +4,7 @@
 @import 'container';
 @import 'header';
 @import 'main-content';
+@import 'page';
 @import 'tile';
 @import 'recipe';
 @import 'typography';
