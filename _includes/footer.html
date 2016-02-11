@@ -1,4 +1,5 @@
 <footer class="footer">
+
   <nav class="footer-navigation">
     {% for my_page in site.pages %}
       {% if my_page.title %}
@@ -6,9 +7,11 @@
       {% endif %}
     {% endfor %}
   </nav>
+
   <nav class="footer-navigation">
     <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
     <a href="{{ site.repo }}">GitHub</a>
     <a href="{{ site.repo }}/issues">Issues</a>
   </nav>
+  
 </footer>
