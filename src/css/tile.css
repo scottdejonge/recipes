@@ -14,7 +14,7 @@
 }
 
 .tile-image {
-	flex: 0 0 20rem;
+	flex: 0 0 12rem;
 	border-right: 1px solid $light-grey;
 
 	img {
@@ -30,27 +30,26 @@
 	flex: 1;
 }
 
-.tile-meta {
-	
-
-	dt {
-		
-	}
-
-	dd {
-		
-	}
+.tile-content {
+	padding: 1.5rem 1rem;
 }
 
-.tile-content {
-	padding: 1.5rem;
+.tile-meta {
+	border-top: 1px solid $light-grey;
+
+	dl {
+		display: flex;
+		align-items: center;
+	}
+
+	dt,
+	dd {
+		padding: 1rem;
+		border-right: 1px solid $light-grey;
+	}
 }
 
 .tile-title {
-
-}
-
-.tile-meta {
 
 }
 

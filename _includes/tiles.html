@@ -11,7 +11,9 @@
         <h2 class="tile-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         <!-- <time class="tile-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time> -->
         <p class="tile-description">{{ post.description }}</p>
-        <dl class="tile-meta">
+      </div>
+      <div class="tile-meta">
+        <dl>
           {% if post.yield %}
             <dt>Yield</dt>
             <dd>{{ post.yield }}</dd>
