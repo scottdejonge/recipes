@@ -4,4 +4,6 @@ layout: default
 
 <h2>Latest recipes</h2>
 
-{% include tiles.html %}
+{% for post in site.posts %}
+  {% include tile.html %}
+{% endfor %}
