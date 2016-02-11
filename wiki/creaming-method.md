@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Creaming Method
+description: "Creaming is the technique of blending several ingredients and working them to a smooth mass."
 ---
 
-Creaming, in this sense, is the technique of blending several ingredients — for example granulated sugar together with a solid fat like shortening or butter — and working them to a smooth mass. The technique is most often used in making buttercream, cake batter or cookie dough.
+Creaming is the technique of blending several ingredients — for example granulated sugar together with a solid fat like shortening or butter — and working them to a smooth mass. The technique is most often used in making buttercream, cake batter or cookie dough.
 
 The dry ingredients are mixed or beaten with the fat until it becomes light and fluffy and increased in volume, due to the incorporation of tiny air bubbles. These air bubbles, locked into the semi-solid fat, remain in the final batter and expand as the item is baked, serving as a form of leavening agent.
 
