@@ -6,10 +6,27 @@
         <img src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}">
       </a>
     {% endif %}
-    <div class="tile-content">
-      <h2 class="tile-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-      <p class="tile-date"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time></p>
-      <p class="tile-description">{{ post.description }}</p>
+    <div class="tile-inner">
+      <div class="tile-content">
+        <h2 class="tile-title"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+        <dl class="tile-meta">
+          {% if post.yield %}
+            <dt>Yield</dt>
+            <dd>{{ post.yield }}</dd>
+          {% endif %}
+          {% if post.prep_time %}
+            <dt>Prep</dt>
+            <dd>{{ post.prep_time }}</dd>
+          {% endif %}
+          {% if post.cook_time %}
+            <dt>Cook</dt>
+            <dd>{{ post.cook_time }}</dd>
+          {% endif %}
+        </dl>
+        
+        <p class="tile-description">{{ post.description }}</p>
+        <time class="tile-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+      </div>
     </div>
   </article>
 

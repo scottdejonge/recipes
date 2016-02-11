@@ -123,9 +123,27 @@ a {
 	}
 }
 
-.tile-content {
+.tile-inner {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	flex: 1;
-	padding: 2rem;
+}
+
+.tile-meta {
+	
+
+	dt {
+		
+	}
+
+	dd {
+		
+	}
+}
+
+.tile-content {
+	padding: 1.5rem;
 }
 
 .tile-title {
@@ -194,6 +212,14 @@ h2 {
 	font-family: $serif;
 	font-weight: 300;
 	color: $dark;
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
 }
 
 h1 {
@@ -207,11 +233,20 @@ h2 {
 ul,
 ol,
 p {
+	margin: 1em 0;
 	font-family: $sans-serif;
 	font-weight: 300;
 	font-size: 1.6rem;
 	line-height: 1.35;
 	letter-spacing: 0.06rem;
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
 }
 
 hr {
@@ -227,6 +262,40 @@ hr {
 		letter-spacing: 2em;
 	}
 }
+
+time {
+	margin: 1em 0;
+	font-family: $serif;
+	font-weight: 300;
+	font-size: 1.2rem;
+	color: $grey;
+	line-height: 1;
+	letter-spacing: 0.06rem;
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+dl {
+	margin: 0;
+}
+
+dt,
+dd {
+	display: inline-block;
+	margin: 0;
+	font-family: $sans-serif;
+	font-weight: 300;
+	font-size: 1.4rem;
+	line-height: 1;
+	letter-spacing: 0.06rem;
+}
+
 
 
 /*
