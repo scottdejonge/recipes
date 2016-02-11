@@ -165,17 +165,6 @@ a {
 	ul,
 	ol {
 		margin: 5rem 0;
-
-		li {
-
-			&:first-child {
-				margin-top: 0;
-			}
-
-			&:last-child {
-				margin-bottom: 0;
-			}
-		}
 	}
 
 	ul li {
@@ -246,6 +235,22 @@ p {
 
 	&:last-child {
 		margin-bottom: 0;
+	}
+}
+
+ol,
+ul {
+	padding: 0 0 0 2em;
+
+	li {
+
+		&:first-child {
+			margin-top: 0;
+		}
+
+		&:last-child {
+			margin-bottom: 0;
+		}
 	}
 }
 
