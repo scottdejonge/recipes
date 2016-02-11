@@ -8,7 +8,7 @@
 $gutter: 10px;
 
 $serif: Georgia, Times, Times New Roman, serif;
-$sans-serif: Gill Sans, Gill Sans MT, Calibri, sans-serif; 
+$sans-serif: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
 
 $white: #FFF;
 $black: #000;
@@ -198,9 +198,11 @@ h1 {
 ul,
 ol,
 p {
+	font-family: $sans-serif;
+	font-weight: 300;
 	font-size: 1.6rem;
-	font-weight: 400;
-	line-height: 1.2;
+	line-height: 1.35;
+	letter-spacing: 0.06rem;
 }
 
 hr {
