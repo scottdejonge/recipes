@@ -15,17 +15,6 @@ Recipes is an example of using Jekyll along with GitHub pages to easily manage r
 * Webpack
 * PostCSS
 
-## Quick start
-
-There are two quick start ways to download Recipes available:
-
-- [Download the latest release](https://github.com/scottdejonge/recipes/).
-- Clone the repo: `git clone https://github.com/scottdejonge/recipes.git`.
-
-## Versioning
-
-For transparency into our release cycle and in striving to maintain backward compatibility, Recipes is maintained under [the Semantic Versioning guidelines](http://semver.org/).
-
 ## Creators
 
 **Scott de Jonge**
