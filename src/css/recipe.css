@@ -5,12 +5,32 @@
 		margin: 5rem 0;
 	}
 
-	ul li {
-		margin: 0.5em 0;
+	ul {
+
+		li {
+			margin: 0.5em 0;
+		}
 	}
 
-	ol li {
-		margin: 2em 0;
+	ol {
+		padding: 0;
+		list-style: none;
+		counter-reset: section;
+
+		li {
+			position: relative;
+			margin: 2em 0;
+
+			&::before {
+				display: block;
+				margin-bottom: 1em;
+				font-family: $serif;
+				font-size: 2rem;
+				line-height: 1;
+				counter-increment: section;
+				content: 'Step ' counters(section, '.');
+			}
+		}
 	}
 }
 
