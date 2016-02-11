@@ -116,18 +116,17 @@ time {
 }
 
 dl {
-	margin: 0;
+	margin: 0.8em 0;
+	font-family: $serif;
+	font-size: 1.4rem;
+	line-height: 1;
+	letter-spacing: 0.035rem;
 }
 
 dt,
 dd {
-	display: inline-block;
+	display: inline;
 	margin: 0;
-	font-family: $sans-serif;
-	font-weight: 300;
-	font-size: 1.4rem;
-	line-height: 1;
-	letter-spacing: 0.06rem;
 }
 
 dt {
@@ -136,4 +135,7 @@ dt {
 
 dd {
 
+	&:not(:last-child) {
+		margin-right: 0.5em;
+	}
 }

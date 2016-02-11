@@ -1,8 +1,16 @@
 .tile {
-	display: flex;
-	align-items: center;
-	margin: 5rem 0;
+	display: block;
+	margin: 3.5rem 0;
+	padding: 1.5rem;
 	border: 1px solid $light-grey;
+	clear: both;
+	transition: border $fast ease-in-out;
+
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		border: 1px solid $grey;
+	}
 
 	&:first-child {
 		margin-top: 0;
@@ -14,13 +22,11 @@
 }
 
 .tile-image {
-	flex: 0 0 12rem;
-	border-right: 1px solid $light-grey;
-
-	img {
-		width: 100%;
-		height: auto;
-	}
+	float: left;
+	margin-right: 1.5rem;
+	width: 100%;
+	max-width: 8rem;
+	height: auto;
 }
 
 .tile-inner {
@@ -34,33 +40,9 @@
 	padding: 1.5rem;
 }
 
-.tile-meta {
-	border-top: 1px solid $light-grey;
-
-	ul {
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		margin: 0;
-		padding: 0;
-		list-style: none;
-	}
-
-	li {
-		flex: 1;
-		margin: 0;
-		padding: 1rem;
-		font-size: 1.4rem;
-		text-align: center;
-
-		&:not(:last-child) {
-			border-right: 1px solid $light-grey;
-		}
-	}
-}
-
 .tile-title {
-
+	margin: 0 0 0.5em 0;
+	font-size: 1.8rem;
 }
 
 .tile-description {
