@@ -1,0 +1,29 @@
+.recipe {
+	
+	ul,
+	ol {
+		margin: 5rem 0;
+	}
+
+	ul li {
+		margin: 0.5em 0;
+	}
+
+	ol li {
+		margin: 2em 0;
+	}
+}
+
+.recipe-header {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 400px;
+	text-align: center;
+}
+
+.recipe-image {
+	margin: 0 auto 3.5rem;
+	width: 100%;
+	max-width: 20rem;
+	height: auto;
+}

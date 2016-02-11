@@ -1,0 +1,63 @@
+.tile {
+	display: flex;
+	align-items: center;
+	margin: 5rem 0;
+	border: 1px solid $light-grey;
+
+	&:first-child {
+		margin-top: 0;
+	}
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.tile-image {
+	flex: 0 0 20rem;
+	border-right: 1px solid $light-grey;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.tile-inner {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex: 1;
+}
+
+.tile-meta {
+	
+
+	dt {
+		
+	}
+
+	dd {
+		
+	}
+}
+
+.tile-content {
+	padding: 1.5rem;
+}
+
+.tile-title {
+
+}
+
+.tile-meta {
+
+}
+
+.tile-description {
+	font-size: 1.4rem;
+}
+
+.tile-date {
+
+}

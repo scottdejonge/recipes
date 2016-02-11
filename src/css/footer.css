@@ -1,0 +1,30 @@
+.footer {
+	border-top: 1px solid $light-grey;
+}
+
+.footer-inner {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer-navigation {
+	
+	a {
+		display: inline-block;
+		padding: 1.5rem;
+		font-size: 1.4rem;
+		color: $grey;
+		text-decoration: none;
+		border-right: 1px solid $light-grey;
+
+		&:first-child {
+			border-left: 1px solid $light-grey;
+		}
+
+		&:hover,
+		&:focus {
+			color: $dark-grey;
+		}
+	}
+}
