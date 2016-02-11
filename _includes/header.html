@@ -1,17 +1,13 @@
 <header class="header">
 
   <nav class="header-navigation">
-    <a class="site-title" href="{{ site.baseurl }}/">Home</a>
+    <a href="{{ site.baseurl }}/">Recipes</a>
   </nav>
 
-  <h1 class="header-title">{{ site.title }}</h1>
+  <h1 class="header-title"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
 
   <nav class="header-navigation">
-    {% for my_page in site.pages %}
-      {% if my_page.title %}
-        <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-      {% endif %}
-    {% endfor %}
+    <a href="{{ site.baseurl }}/wiki">Wiki</a>
   </nav>
 
 </header>

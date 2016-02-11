@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h2>Wiki</h2>
+
+{% for post in site.pages %}
+  {% if post.title %}
+    {% if post.url contains '/wiki' %}
+      {% include tile.html %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
