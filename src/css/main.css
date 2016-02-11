@@ -44,6 +44,20 @@ body {
 	background: $light;
 }
 
+a {
+	color: $grey;
+	text-decoration: none;
+
+	&:hover,
+	&:focus {
+		color: $dark;
+	}
+
+	&:visited {
+		
+	}
+}
+
 
 /*
  * Container
@@ -52,6 +66,8 @@ body {
 .container {
 	margin-left: auto;
 	margin-right: auto;
+	padding-left: $gutter;
+	padding-right: $gutter;
 	max-width: 900px;
 }
 
@@ -78,6 +94,42 @@ body {
 .main-content {
 	flex: 1;
 	margin: 5rem 0;
+}
+
+
+
+/*
+ * Tile
+ */
+
+.tile {
+	display: flex;
+	align-items: center;
+	margin: 5rem 0;
+	border: 1px solid $light-grey;
+}
+
+.tile-image {
+	flex: 0 0 20rem;
+	border-right: 1px solid $light-grey;
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.tile-content {
+	flex: 1;
+	padding: 2rem;
+}
+
+.tile-title {
+
+}
+
+.tile-date {
+
 }
 
 
@@ -118,6 +170,13 @@ body {
 	margin-right: auto;
 	max-width: 400px;
 	text-align: center;
+}
+
+.recipe-image {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 20rem;
+	height: auto;
 }
 
 
