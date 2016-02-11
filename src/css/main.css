@@ -251,13 +251,16 @@ p {
 
 hr {
 	height: 0;
-	margin: 5rem auto;
+	margin: 8rem auto;
 	font-size: 1.6rem;
 	color: $dark;
+	line-height: 1rem;
 	text-align: center;
 	border: none;
 
 	&::before {
+		margin-top: -0.5rem;
+		margin-right: -3rem;
 		content: "···";
 		letter-spacing: 2em;
 	}
