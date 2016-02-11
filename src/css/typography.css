@@ -68,10 +68,12 @@ hr {
 	border: none;
 
 	&::before {
-		margin-top: -0.5rem;
-		margin-right: -3rem;
-		content: "···";
-		letter-spacing: 2em;
+		margin-top: -1em;
+		margin-right: -1em;
+		font-family: $serif;
+		font-size: 2rem;
+		content: "***";
+		letter-spacing: 1em;
 	}
 }
 
