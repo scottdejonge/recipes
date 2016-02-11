@@ -25,6 +25,10 @@ $dark: #222;
 
 :root {
 	font-size: 10px;
+
+	@media (max-width: 640px) {
+		font-size: 9px;
+	}
 }
 
 html {
@@ -173,7 +177,7 @@ a {
 }
 
 .recipe-image {
-	margin: 0 auto;
+	margin: 0 auto 3.5rem;
 	width: 100%;
 	max-width: 20rem;
 	height: auto;
@@ -186,6 +190,7 @@ a {
 
 h1,
 h2 {
+	margin: 0 0 0.65em 0;
 	font-family: $serif;
 	font-weight: 300;
 	color: $dark;
@@ -193,6 +198,10 @@ h2 {
 
 h1 {
 	font-size: 3.2rem;
+}
+
+h2 {
+	font-size: 2.4rem;
 }
 
 ul,
