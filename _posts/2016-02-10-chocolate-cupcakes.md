@@ -22,7 +22,7 @@ cook_time: 20
 * * *
 
 1. Preheat oven to a moderate 180°C 
-2. Put the softened (at room temperature) butter and sugar into a bowl of a stand mixer and beat at medium until light and fluffy using the [creaming method]({{site.baseurl}}/wiki/creaming-method).
+2. Put the softened (at room temperature) butter and sugar into a bowl of a stand mixer and beat at medium until light and fluffy using the [creaming method].
 3. Break the eggs into a bowl to avoid any shells being added to the mix.
 4. Add the vanilla and eggs (one at a time form the bowl) mixing on medium-high until incorporated and light.
 5. Sift the flour and cocoa together into a bowl.
@@ -31,3 +31,5 @@ cook_time: 20
 8. Bake for 20 minutes or until a skewer inserted into the middle comes out clean.
 9. Cool on a wire rack for 10 minutes before turning out of pan to cool completely.
 10. Decorate the cakes with chocolate icing. Allow the icing to set before serving.
+
+[creaming method]: {{site.baseurl}}/wiki/creaming-method
