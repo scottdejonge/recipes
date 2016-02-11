@@ -4,7 +4,7 @@
     {% if post.image %}
       <img class="tile-image" src="{{ post.image | prepend: site.baseurl }}" alt="{{ post.title }}">
     {% endif %}
-    <h2 class="tile-title">{{ post.title }}</h2>
+    <h3 class="tile-title">{{ post.title }}</h3>
     <!-- <time class="tile-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%b %-d, %Y" }}</time> -->
     <dl>
       {% if post.yield %}
