@@ -31,5 +31,5 @@ cook_time: 15 mins
 9. Cool on a wire rack for 10 minutes before turning out of pan to cool completely.
 10. Decorate the cakes with [butter frosting]. Allow the icing to set before serving.
 
-[butter frosting]: {{site.baseurl}}/recipes/butter-frosting
+[butter frosting]: {{site.baseurl}}/butter-frosting
 [creaming method]: {{site.baseurl}}/wiki/creaming-method
