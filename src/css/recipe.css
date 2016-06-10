@@ -38,14 +38,6 @@
 	}
 }
 
-.recipe-header {
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 8rem;
-	max-width: 40rem;
-	text-align: center;
-}
-
 .recipe-image {
 	margin: 0 auto 2rem;
 	width: 100%;

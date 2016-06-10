@@ -1,0 +1,9 @@
+.page-header {
+	margin: 0 auto 8rem;
+	max-width: 48rem;
+	text-align: center;
+
+	p {
+		font-style: italic;
+	}
+}

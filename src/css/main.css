@@ -5,6 +5,7 @@
 @import 'header';
 @import 'main-content';
 @import 'page';
+@import 'page-header';
 @import 'tile';
 @import 'recipe';
 @import 'typography';
