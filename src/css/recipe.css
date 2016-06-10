@@ -24,8 +24,8 @@
 			&::before {
 				display: block;
 				margin-bottom: 1em;
-				font-family: $serif;
-				font-size: 2rem;
+				font-style: italic;
+				font-size: 2.0rem;
 				line-height: 1;
 				counter-increment: section;
 				content: 'Step ' counters(section, '.');

@@ -2,13 +2,10 @@ $gutter: 10px;
 
 $fast: 100ms;
 
-$serif: Georgia, Times, Times New Roman, serif;
-$sans-serif: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-
 $white: #FFF;
 $black: #000;
 $light: #FAF8F4;
-$light-grey: #EAE8E4;
-$grey: #6D6A68;
-$dark-grey: #323331;
-$dark: #1A1C1F;
+$light-grey: #D0D0D2;
+$grey: #989696;
+$dark-grey: #33323D;
+$dark: #27262D;

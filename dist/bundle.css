@@ -406,9 +406,9 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 100%;
-	color: #323331;
-	letter-spacing: 0.03rem;
-	background: #FAF8F4;
+	font-family: 'Lora', serif;
+	color: #33323D;
+	background: #FFF;
 }
 
 .container {
@@ -423,7 +423,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	border-bottom: 1px solid #EAE8E4;
+	border-bottom: 1px solid #D0D0D2;
 }
 
 .header-navigation {
@@ -433,17 +433,17 @@ body {
 .header-navigation a {
   padding: 1.5rem;
   font-size: 1.4rem;
-  color: #323331;
+  color: #33323D;
   text-decoration: none;
-  border-right: 1px solid #EAE8E4
+  border-right: 1px solid #D0D0D2
 }
 
 .header-navigation a:first-child {
-  border-left: 1px solid #EAE8E4;
+  border-left: 1px solid #D0D0D2;
 }
 
 .header-navigation a:hover, .header-navigation a:focus {
-  color: #323331;
+  color: #33323D;
   text-decoration: none;
 }
 
@@ -453,17 +453,17 @@ body {
 }
 
 .header-title a {
-  color: #323331
+  color: #33323D
 }
 
 .header-title a:hover, .header-title a:focus {
-  color: #323331;
+  color: #33323D;
   text-decoration: none;
 }
 
 .main-content {
-	flex: 1;
-	margin: 5rem 0;
+	flex: 1 0 auto;
+	margin: 8rem 0;
 }
 
 .page {
@@ -471,25 +471,27 @@ body {
 }
 
 .page-header {
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 8rem;
-	max-width: 40rem;
+	margin: 0 auto 8rem;
+	max-width: 48rem;
 	text-align: center;
+}
+
+.page-header p {
+  font-style: italic;
 }
 
 .tile {
 	display: block;
-	margin: 3.5rem 0;
-	padding: 1.5rem;
-	border: 1px solid #EAE8E4;
+	margin: 3rem 0;
+	padding: 2rem;
+	border: 1px solid #D0D0D2;
 	clear: both;
 	transition: border 100ms ease-in-out
 }
 
 .tile:hover, .tile:focus {
   text-decoration: none;
-  border: 1px solid #6D6A68;
+  border: 1px solid #989696;
 }
 
 .tile:first-child {
@@ -524,7 +526,7 @@ body {
 }
 
 .tile-description {
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	line-height: 1.35;
 }
 
@@ -554,8 +556,8 @@ body {
 .recipe ol li::before {
   display: block;
   margin-bottom: 1em;
-  font-family: Georgia,Times,Times New Roman,serif;
-  font-size: 2rem;
+  font-style: italic;
+  font-size: 2.0rem;
   line-height: 1;
   counter-increment: section;
   content: 'Step ' counters(section, '.');
@@ -563,14 +565,6 @@ body {
 
 .recipe a {
   text-decoration: underline;
-}
-
-.recipe-header {
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 8rem;
-	max-width: 40rem;
-	text-align: center;
 }
 
 .recipe-image {
@@ -581,12 +575,12 @@ body {
 }
 
 a {
-	color: #1A1C1F;
+	color: #27262D;
 	text-decoration: none
 }
 
 a:hover, a:focus {
-  color: #323331;
+  color: #33323D;
   text-decoration: underline;
 }
 
@@ -595,9 +589,9 @@ a:visited {
 }
 
 h1, h2, h3 {
-	font-family: Georgia,Times,Times New Roman,serif;
-	font-weight: 300;
-	color: #1A1C1F
+	font-weight: normal;
+	font-style: italic;
+	color: #33323D
 }
 
 h1:first-child, h2:first-child, h3:first-child {
@@ -609,7 +603,7 @@ h1:last-child, h2:last-child, h3:last-child {
 }
 
 h1 {
-	margin: 0.5em 0;
+	margin: 1em 0 0.5em;
 	font-size: 3.2rem;
 }
 
@@ -620,16 +614,15 @@ h2 {
 
 h3 {
 	margin: 1em 0;
-	font-size: 1.8rem;
+	font-size: 2.0rem;
 }
 
 ul, ol, p {
 	margin: 1em 0;
-	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
-	font-weight: 400;
-	font-size: 1.5rem;
-	color: #323331;
-	line-height: 1.5;
+	font-weight: normal;
+	font-size: 1.8rem;
+	color: #33323D;
+	line-height: 1.65;
 	letter-spacing: 0.06rem
 }
 
@@ -659,14 +652,14 @@ ol li:last-child, ul li:last-child {
 
 strong {
 	font-weight: 300;
-	color: #1A1C1F;
+	color: #27262D;
 }
 
 hr {
 	height: 0;
 	margin: 8rem auto;
 	font-size: 1.6rem;
-	color: #1A1C1F;
+	color: #33323D;
 	line-height: 1rem;
 	text-align: center;
 	border: none
@@ -675,7 +668,7 @@ hr {
 hr::before {
   margin-top: -1em;
   margin-right: -1em;
-  font-family: Georgia,Times,Times New Roman,serif;
+  font-style: italic;
   font-size: 2rem;
   content: "***";
   letter-spacing: 1em;
@@ -683,10 +676,8 @@ hr::before {
 
 time {
 	margin: 1em 0;
-	font-family: Georgia,Times,Times New Roman,serif;
 	font-weight: 300;
 	font-size: 1.2rem;
-	color: #6D6A68;
 	line-height: 1;
 	letter-spacing: 0.06rem
 }
@@ -700,34 +691,48 @@ time:last-child {
 }
 
 dl {
-	margin: 0.8em 0;
-	font-family: Georgia,Times,Times New Roman,serif;
-	font-size: 1.4rem;
+	margin: 1em 0;
+	font-size: 1.6rem;
 	line-height: 1;
 	letter-spacing: 0.035rem;
 }
 
 dt, dd {
-	display: inline;
-	margin: 0;
+	display: block;
+	margin: 1em 0
 }
 
+@media (min-width: 640px) {
+
+  dt, dd {
+    display: inline;
+    margin: 0;
+  }
+	}
+
 dt {
-	
+	font-style: italic;
 }
 
 dd {
 }
 
-dd:not(:last-child) {
-  margin-right: 0.5em;
-}
+@media (min-width: 640px) {
+
+  dd {
+    display: inline;
+  }
+
+  dd:not(:last-child) {
+    margin-right: 0.5em;
+  }
+	}
 
 .footer {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	border-top: 1px solid #EAE8E4;
+	border-top: 1px solid #D0D0D2;
 }
 
 .footer-navigation {
@@ -737,17 +742,17 @@ dd:not(:last-child) {
 .footer-navigation a {
   padding: 1.5rem;
   font-size: 1.2rem;
-  color: #323331;
+  color: #33323D;
   text-decoration: none;
-  border-right: 1px solid #EAE8E4
+  border-right: 1px solid #D0D0D2
 }
 
 .footer-navigation a:first-child {
-  border-left: 1px solid #EAE8E4;
+  border-left: 1px solid #D0D0D2;
 }
 
 .footer-navigation a:hover, .footer-navigation a:focus {
-  color: #323331;
+  color: #33323D;
   text-decoration: none;
 }
 /*# sourceMappingURL=bundle.css.map*/

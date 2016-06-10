@@ -16,9 +16,9 @@ a {
 h1,
 h2,
 h3 {
-	font-family: $serif;
-	font-weight: 300;
-	color: $dark;
+	font-weight: normal;
+	font-style: italic;
+	color: $dark-grey;
 
 	&:first-child {
 		margin-top: 0;
@@ -30,7 +30,7 @@ h3 {
 }
 
 h1 {
-	margin: 0.5em 0;
+	margin: 1em 0 0.5em;
 	font-size: 3.2rem;
 }
 
@@ -41,18 +41,17 @@ h2 {
 
 h3 {
 	margin: 1em 0;
-	font-size: 1.8rem;
+	font-size: 2.0rem;
 }
 
 ul,
 ol,
 p {
 	margin: 1em 0;
-	font-family: $sans-serif;
-	font-weight: 400;
-	font-size: 1.5rem;
+	font-weight: normal;
+	font-size: 1.8rem;
 	color: $dark-grey;
-	line-height: 1.5;
+	line-height: 1.65;
 	letter-spacing: 0.06rem;
 
 	&:first-child {
@@ -89,7 +88,7 @@ hr {
 	height: 0;
 	margin: 8rem auto;
 	font-size: 1.6rem;
-	color: $dark;
+	color: $dark-grey;
 	line-height: 1rem;
 	text-align: center;
 	border: none;
@@ -97,7 +96,7 @@ hr {
 	&::before {
 		margin-top: -1em;
 		margin-right: -1em;
-		font-family: $serif;
+		font-style: italic;
 		font-size: 2rem;
 		content: "***";
 		letter-spacing: 1em;
@@ -106,10 +105,8 @@ hr {
 
 time {
 	margin: 1em 0;
-	font-family: $serif;
 	font-weight: 300;
 	font-size: 1.2rem;
-	color: $grey;
 	line-height: 1;
 	letter-spacing: 0.06rem;
 
@@ -123,26 +120,34 @@ time {
 }
 
 dl {
-	margin: 0.8em 0;
-	font-family: $serif;
-	font-size: 1.4rem;
+	margin: 1em 0;
+	font-size: 1.6rem;
 	line-height: 1;
 	letter-spacing: 0.035rem;
 }
 
 dt,
 dd {
-	display: inline;
-	margin: 0;
+	display: block;
+	margin: 1em 0;
+
+	@media (min-width: 640px) {
+		display: inline;
+		margin: 0;
+	}
 }
 
 dt {
-	
+	font-style: italic;
 }
 
 dd {
+	
+	@media (min-width: 640px) {
+		display: inline;
 
-	&:not(:last-child) {
-		margin-right: 0.5em;
+		&:not(:last-child) {
+			margin-right: 0.5em;
+		}
 	}
 }
