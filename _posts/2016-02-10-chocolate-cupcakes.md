@@ -7,8 +7,8 @@ categories:
 
 # Cooking Info
 yield: 12
-prep_time: 25
-cook_time: 20
+prep_time: 25 mins
+cook_time: 20 mins
 ---
 
 * 125g unsalted butter

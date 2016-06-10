@@ -7,8 +7,8 @@ categories:
 
 # Cooking Info
 yield: 24
-prep_time: 20
-cook_time: 15
+prep_time: 20 mins
+cook_time: 15 mins
 ---
 
 * 100g butter, softened
